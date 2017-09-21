@@ -1,4 +1,6 @@
 # simple-angular-webpack-boilerplate
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcytrox%2Fsimple-angular-webpack-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcytrox%2Fsimple-angular-webpack-boilerplate?ref=badge_shield)
+
 
 Simplest Angular, SASS and Webpack boilerplate.
 
@@ -93,3 +95,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 # License
 
 [Unlicense](/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcytrox%2Fsimple-angular-webpack-boilerplate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcytrox%2Fsimple-angular-webpack-boilerplate?ref=badge_large)
