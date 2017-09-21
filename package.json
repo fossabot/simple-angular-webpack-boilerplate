@@ -1,0 +1,30 @@
+{
+  "name": "simple-angular-webpack-boilerplate",
+  "version": "0.1.0",
+  "description": "Simplest Angular, SASS and Webpack boilerplate for small applications and prototypes.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./build/ && ./node_modules/.bin/webpack --config webpack.config.js",
+    "dev": "rm -rf ./build/ && ./node_modules/.bin/webpack --config webpack.config.js && ./node_modules/.bin/webpack-dev-server --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cytrox/simple-angular-webpack-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cytrox/simple-angular-webpack-boilerplate/issues"
+  },
+  "author": "Aleksa Milosevic (aleksa.milosevic@gmail.com)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
